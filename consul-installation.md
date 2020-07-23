@@ -12,6 +12,11 @@ Verify if its working
 
      consul
      
+Enable autocomplete 
+     
+     consul -autocomplete-install
+     complete -C /usr/bin/consul consul 
+     
 Start the consul as server and as client on the same machine
 
      consul agent -dev -node machine
