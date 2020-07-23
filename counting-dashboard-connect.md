@@ -16,3 +16,10 @@ Start the sidecar for both the services
 
 Go to the consul dashboard->intentions and modify the policy 
 
+OTR - try the commands below and verify the dashboard page for the effect 
+
+    consul intention create -deny <source> <destination>
+    consul intention delete <source> <destination>
+    
+    
+
