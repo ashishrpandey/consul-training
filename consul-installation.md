@@ -61,7 +61,7 @@ Run in a separate window on the same machine
 
 In the browser open - 
 
-- [publicIP of the server]:8500
+- {publicIP of the server}:8500
      
      
 In another browser open - 
