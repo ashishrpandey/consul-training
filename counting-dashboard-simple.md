@@ -6,12 +6,12 @@ Clone the code on your system
     git clone https://github.com/ashishrpandey/consul-training/
     cd consul-training/
 
-Move th service files to config directory 
+Move the service files to config directory 
 
     mv counting.json /etc/consul.d
     mv dashboard.json /etc/consul.d
 
-Move the bnaries to /usr/bin directory 
+Move the binaries to /usr/bin directory 
 
     mv counting-service /usr/bin/
     mv dashboard-service /usr/bin/
