@@ -1,3 +1,5 @@
+## Download and Install consul on both Server and Client
+
 Download consul
 
      wget https://releases.hashicorp.com/consul/1.8.0/consul_1.8.0_linux_amd64.zip
@@ -17,7 +19,7 @@ Enable autocomplete
      consul -autocomplete-install
      complete -C /usr/bin/consul consul 
      
-## Start the consul as server 
+## Start the consul as server (Preferably on Nomad-server)
 
 Create the /etc/consul.d/ directory  
 
