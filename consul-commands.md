@@ -2,6 +2,7 @@
 Usage: consul [--version] [--help] <command> [<args>]
 
 Available commands are:
+
     acl            Interact with Consul's ACLs
     agent          Runs a Consul agent
     catalog        Interact with the catalog
