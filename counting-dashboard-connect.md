@@ -1,4 +1,4 @@
-## Controlling the inter-service-communication with consul-connet using sidecar-proxy
+## Controlling the inter-service-communication with consul-connect using sidecar-proxy
 
 
 Make sure that the config file for both the services are properly placed and loaded by the consul 
