@@ -37,6 +37,8 @@ Create the /etc/consul.d/ directory
      mkdir -p /etc/consul.d/ 
     
 Copy the content from consul.hcl  in the /etc/consul.d/ 
+
+     git clone https://github.com/ashishrpandey/consul-training
     
      mv consul.hcl /etc/consul.d/consul.hcl 
 
