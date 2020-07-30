@@ -20,6 +20,6 @@ Apply the config
 
 ## L7 Traffic Management
 
-<img> https://www.consul.io/img/l7-traffic-stages.svg </img>
+<img src=https://www.consul.io/img/l7-traffic-stages.svg >
 
       
