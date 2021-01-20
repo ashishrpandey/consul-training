@@ -10,12 +10,12 @@ Apply the config
       
 ## Read configuration entry
 
-  consul config list -kind proxy-defaults
-  consul config read -kind proxy-defaults -name global 
+      consul config list -kind proxy-defaults
+      consul config read -kind proxy-defaults -name global 
 
 ## Delete configuration entry
  
-  consul config delete -kind proxy-defaults -name global
+      consul config delete -kind proxy-defaults -name global
   
 
 ## L7 Traffic Management
