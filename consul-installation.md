@@ -76,5 +76,5 @@ In the browser open -
      
 In another browser open - 
 
-[publicIP of the client]:8500
+- {publicIP of the client}:8500
 
