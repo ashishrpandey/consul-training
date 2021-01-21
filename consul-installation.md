@@ -1,13 +1,10 @@
 ## Download and Install consul on both Server and Client
 
-Download consul
+Download and install consul
 
-     wget https://releases.hashicorp.com/consul/1.8.0/consul_1.8.0_linux_amd64.zip
-
-Install consul
-     
+     sudo su 
+     wget https://releases.hashicorp.com/consul/1.8.0/consul_1.8.0_linux_amd64.zip   
      unzip consul_1.8.0_linux_amd64.zip
-     ls
      mv consul /usr/bin/
      
 Verify if its working 
@@ -39,14 +36,12 @@ Launch Consul agent as server
 
 ## Start the consul agent as client  (On Nomad-client)
 
-Create the /etc/consul.d/ directory 
+  Copy the content from consul.hcl  in the /etc/consul.d/ 
 
-     mkdir -p /etc/consul.d/ 
-    
-Copy the content from consul.hcl  in the /etc/consul.d/ 
-
+     sudo su 
      git clone https://github.com/ashishrpandey/consul-training
-    
+     cd consul-training/
+     mkdir -p /etc/consul.d/ 
      mv consul.hcl /etc/consul.d/consul.hcl 
 
 Launch the consul agent as client
