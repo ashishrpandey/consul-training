@@ -31,7 +31,7 @@ Copy the content from consul.hcl  in the /etc/consul.d/
      
 Launch Consul agent as server 
 
-     consul agent -ui  -server -bootstrap-expect=1 -data-dir=/tmp/consul -node=machine -bind=<Private IP of the server/self> -config-dir=/etc/consul.d -client=0.0.0.0
+     consul agent -ui  -server -bootstrap-expect=1 -data-dir=/tmp/consul -node=machine -bind=<Private IP of the server/self> -config-dir=/etc/consul.d -client=0.0.0.0 &
 
 
 ## Start the consul agent as client  (On Nomad-client)
@@ -46,7 +46,7 @@ Launch Consul agent as server
 
 Launch the consul agent as client
 
-     consul agent -ui  -client -data-dir=/tmp/consul -node=client1 -bind=<private IP of self> -config-dir=/etc/consul.d -client=0.0.0.0
+     consul agent -ui  -client -data-dir=/tmp/consul -node=client1 -bind=<private IP of self> -config-dir=/etc/consul.d -client=0.0.0.0 &
 
 Open a new termial of the client and
 Join the consul server
