@@ -1,4 +1,5 @@
 
+## ON Client machine 
 ## launch two services (dashboard and counting services) communicating with each other 
 
 Clone the code on your system 
@@ -24,6 +25,9 @@ In a duplicate terminal on same machine launch counting-service on PORT 9001
 
     PORT=9001 counting-service
 
+Reload consul to read the new files 
+
+    consul reload
 
 Open the URL in the browser to check the dashboard
 
