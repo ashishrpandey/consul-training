@@ -28,7 +28,7 @@ Create the /etc/consul.d/ directory
 Copy the content from consul.hcl  in the /etc/consul.d/ 
 
      git clone https://github.com/ashishrpandey/consul-training
-    
+     cd consul-training/
      mv consul.hcl /etc/consul.d/consul.hcl 
      
 Launch Consul agent as server 
